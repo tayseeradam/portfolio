@@ -13,10 +13,10 @@ const Card = ({
 }) => {
   return (
     <div
-      className=" bg-gray-200 w-60 h-32  
-   rounded-[10px] space-y-3 p-3 border-y-[1px] border-gray-400 hover:border-x-[1px] hover:border-gray-400
+      className=" bg-gray-200 w-60 h-32 rounded-[10px] space-y-3 p-3 
+      border-y-[1px] border-gray-400 hover:border-x-[1px] hover:border-gray-400
        hover:-translate-y-3 
-       transition-all duration-500  group hover:shadow-xl shadow-gray-400 nnn"
+       transition-all duration-500  cursor-pointer group hover:shadow-xl shadow-gray-400 nnn"
     >
       <div className="flex justify-between ">
         <div className={`${skillIconStyle} text-5xl`}>{skillIcon}</div>

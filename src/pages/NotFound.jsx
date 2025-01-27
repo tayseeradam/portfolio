@@ -9,9 +9,9 @@ const NotFound = () => {
     navigate("/")
   }
   return (
-    <div className=" flex flex-col justify-center items-center gap-4">
-      <h1 className="text-6xl font-extrabold">404</h1>
-      <h2 className="text-5xl font-bold text-red-700">Page not found</h2>
+    <div className=" flex flex-col justify-center md:items-center gap-4">
+      <h1 className="text-6xl md:font-extrabold transition md:animate-pulse duration-1000 ">404</h1>
+      <h2 className="text-5xl font-bold text-red-700 font-serif">Page not found</h2>
       <Button
         className="bg-green-900 text-[18px] text-white
          py-4 px-12 rounded-full hover:bg-green-800 
