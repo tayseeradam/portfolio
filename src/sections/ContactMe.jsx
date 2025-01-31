@@ -14,7 +14,7 @@ const ContactMe = () => {
           <div className="flex flex-col items-center space-y-4">
             <p className="font-bold text-xl text-gray-800 font-serif">Follow Me:</p>
             <div className="flex text-gray-600 space-x-3">
-              <a className="hover:border-gray-600 border-[1px] border-gray-400 duration-500 rounded-full w-[50px] h-[50px] flex justify-center items-center" title="Github" href="https://github.com/tayseeradam" target="_blank" rel="noopener noreferrer">
+              <a className="hover:border-gray-600 border-2 border-gray-400 duration-500 rounded-full w-[50px] h-[50px] flex justify-center items-center" title="Github" href="https://github.com/tayseeradam" target="_blank" rel="noopener noreferrer">
                 <FaGithub className="text-2xl" />
               </a>
               <a className="hover:border-gray-600 border-2 border-gray-400 duration-500 rounded-full w-[50px] h-[50px] flex justify-center items-center" title="LinkedIn" href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
@@ -34,13 +34,15 @@ const ContactMe = () => {
               </a>
               <a className="text-gray-700 font-bold" href="https://wa.me/qr/C2AOCPYUMQHWI1" title="Go to WhatsApp" target="_blank" rel="noopener noreferrer">
 
-                <FaWhatsapp className="inline text-3xl text-gray-600 mx-1" /> +250727162841
+                <FaWhatsapp className="inline text-3xl text-4x text-gray-600 mx-1" /> +250727162841
               </a>
             </div>
           </div>
         </div>
         <form className="w-full md:w-3/5 mt-8 md:mt-0 md:space-y-1">
-          <h1 className="text-2xl font-bold text-center font-serif">Get in touch 😊</h1>
+       
+          <h1 className="text-2xl font-bold text-center font-serif
+           bg-gray-500 hover:bg-gray-400 text-white rounded-lg shadow-lg w-[33%] ml-60 ">Get in touch 😊</h1>
 
           <Label htmlFor="fullName" text="Full Name:" />
           <Input type="text" id="fullName" placeholder="Your Full Name" required />

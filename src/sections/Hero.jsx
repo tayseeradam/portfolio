@@ -63,8 +63,8 @@ const Hero = () => {
           </p>
           <Button
             btnText="Hire Me"
-            className="bg-gray-600 text-lg sm:text-xl text-white py-4 px-12 rounded-full 
-             hover:bg-gray-500 focus:ring focus:ring-gray-600 focus:ring-offset-2 outline-none"
+            className="bg-gray-500 text-lg sm:text-xl text-white py-4 px-12 rounded-full font-serif
+             hover:bg-gray-400 focus:ring focus:ring-gray-500 focus:ring-offset-2 outline-none"
           />
         </div>
         <div className="w-full md:w-2/5 flex justify-center md:justify-start">
@@ -73,7 +73,8 @@ const Hero = () => {
             alt="profile"
             className="w-[150px] h-[150px] sm:w-[200px] sm:h-[200px]
             l shadow-[0_0_30px_rgba(139,139,139,0.5)] transition duration-300 ease-in-out
-             md:w-[250px] md:h-[250px] object-cover object-top rounded-full rotate-3 backdrop-blur-md"
+             md:w-[340px] md:h-[340px] object-cover object-top ml-10 rounded-full
+              rotate-3 backdrop-blur-md"
           />
         </div>
       </div>

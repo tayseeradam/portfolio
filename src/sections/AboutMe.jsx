@@ -4,7 +4,8 @@ const AboutMe = () => {
     <main
       id="aboutMe"
       className="h-screen bg-slate-200 flex md:flex-col md:items-center md:justify-center z-0">
-      <div className="max-w-5xl mx-auto space-y-4 flex flex-col justify-center items-center h-[80%] bg-white rounded-[20px]  px-10 relative">
+      <div className="md:max-w-5xl mx-auto space-y-4 flex flex-col justify-center items-center 
+      h-[80%] bg-white rounded-[20px]  px-10 relative shadow-md">
         <div className="text-gray-800 absolute w-[100px] h-[100px] -top-[40px] right-0 "> <svg
             className="image-with-text__title-arrow image-with-text__title-arrow--green"
             xmlns="http://www.w3.org/2000/svg"

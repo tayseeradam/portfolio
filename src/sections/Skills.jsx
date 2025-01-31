@@ -8,6 +8,7 @@ import { VscLayoutMenubar } from 'react-icons/vsc';
 import { SiMongodb } from "react-icons/si";
 import { SiMongoose } from "react-icons/si";
 import { FaGit } from "react-icons/fa";
+import { SiPostman } from "react-icons/si";
 
 
 const Skills = () => {
@@ -24,9 +25,9 @@ const Skills = () => {
     {  
       skillName: "Css",
       skillLevel: "Intermediate",
-      skillBgColor: "bg-green-300 hover:bg-green-200",
-      skillBorderColor: "border-green-800",
-      skillLevelColor: "text-green-800",
+      skillBgColor: "bg-yellow-300 hover:bg-green-200",
+      skillBorderColor: "border-yellow-800",
+      skillLevelColor: "text-yellow-800",
       skillIcon: <FaCss3Alt />,
       skillIconStyle: " size-[24] text-[#1d3bb2] group-hover:text-[#264de4]"
     },
@@ -77,19 +78,19 @@ const Skills = () => {
     },
     {  
       skillName: "Responsiveness", 
-      skillLevel: "Intermediate",
-      skillBgColor: "bg-yellow-300 hover:bg-yellow-200",
-      skillBorderColor: "border-yellow-800",
-      skillLevelColor: "text-yellow-800",
+      skillLevel: "Advance",
+      skillBgColor: "bg-green-300 hover:bg-yellow-200",
+      skillBorderColor: "border-green-800",
+      skillLevelColor: "text-green-800",
       skillIcon: <VscLayoutMenubar/>,
       skillIconStyle: "text-[#2c97c6] group-hover:text-[#38bdf8]"
     },
     {  
       skillName: "Node.js", 
-      skillLevel: "Beginner",
-      skillBgColor: "bg-red-300 hover:bg-red-200",
-      skillBorderColor: "border-red-800",
-      skillLevelColor: "text-red-800",
+      skillLevel: "Intermediate",
+      skillBgColor: "bg-yellow-300 hover:bg-red-200",
+      skillBorderColor: "border-yellow-800",
+      skillLevelColor: "text-yellow-800",
       skillIcon: <SiNodedotjs />,
       skillIconStyle: "text-[#2c97c6] group-hover:text-[#38bdf8]"
     },
@@ -112,11 +113,20 @@ const Skills = () => {
       skillIconStyle: "text-[#2c97c6] group-hover:text-[#38bdf8]"
     },
     {  
-      skillName: "MongDB", 
-      skillLevel: "Beginner",
-      skillBgColor: "bg-red-300 hover:bg-red-200",
+      skillName: "Postman", 
+      skillLevel: "Advance",
+      skillBgColor: "bg-green-300 hover:bg-red-200",
       skillBorderColor: "border-red-800",
-      skillLevelColor: "text-red-800",
+      skillLevelColor: "text-green-800",
+      skillIcon: <SiPostman/>,
+      skillIconStyle: "text-[#2c97c6] group-hover:text-[#38bdf8]"
+    },
+    {  
+      skillName: "MongDB", 
+      skillLevel: "Advance",
+      skillBgColor: "bg-green-300 hover:bg-red-200",
+      skillBorderColor: "border-green-800",
+      skillLevelColor: "text-green-800",
       skillIcon: <SiMongodb/>,
       skillIconStyle: "text-[#2c97c6] group-hover:text-[#38bdf8]"
     },

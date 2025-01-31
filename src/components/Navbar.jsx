@@ -42,8 +42,8 @@ const Navbar = () => {
           <ul className="space-y-4 py-4 text-center text-xl font-bold text-gray-700">
             <a href="#home" className="block hover:text-white ">Home</a>
             <a href="#aboutMe" className="block hover:text-white">About Me</a>
-            <a href="#skills" className="block hover:text-white-700">Skills</a>
-            <a href="#contactMe" className="block hover:text-blue-700">Contact Me</a>
+            <a href="#skills" className="block hover:text-white">Skills</a>
+            <a href="#contactMe" className="block hover:text-white">Contact Me</a>
           </ul>
         </div>
       )}

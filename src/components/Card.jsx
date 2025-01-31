@@ -13,14 +13,14 @@ const Card = ({
 }) => {
   return (
     <div
-      className=" bg-gray-200 w-60 h-32 rounded-[10px] space-y-3 p-3 
+      className=" bg-gray-400 w-60 max-sm:w-[80vw] h-32 rounded-[10px] space-y-3 p-3 
       border-y-[1px] border-gray-400 hover:border-x-[1px] hover:border-gray-400
        hover:-translate-y-3 
        transition-all duration-500  cursor-pointer group hover:shadow-xl shadow-gray-400 nnn"
     >
       <div className="flex justify-between ">
         <div className={`${skillIconStyle} text-5xl`}>{skillIcon}</div>
-        <h2 className={`font-bold text-2xl text-gray-700 ${skillNameColor}`}>{skillName}</h2>
+        <h2 className={`font-bold text-2xl text-white ${skillNameColor}`}>{skillName}</h2>
       </div>
       <div className="flex justify-center">
         <Button
