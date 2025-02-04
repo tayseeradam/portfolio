@@ -40,8 +40,7 @@
 
 
 
-
-
+import Typewriter from 'typewriter-effect';
 import profile from "../assets/profile.jpg";
 import Button from '../components/Button.jsx';
 
@@ -51,9 +50,20 @@ const Hero = () => {
       <div className="max-w-5xl mx-auto w-full flex flex-col-reverse md:flex-row 
       md:items-center h-screen gap-10">
         <div className="w-full md:w-3/5 space-y-8 justify max-w-4xl mx-auto">
-          <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl text-gray-700 
-           md:text-left font-serif">
-            Hi I&apos;m Tayseer
+          <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl 
+           md:text-left font-serif text-slate">
+            <Typewriter 
+            options={{
+              strings:[
+                '<span style="color: black;">Hi, I&apos;m Tayseer</span>',
+                '<span style="color:slate;">Hi,I&apos;m Tayseer</span>',
+                ],
+              autoStart:true,
+              loop:true, 
+              delay: 75,
+            }}
+            />
+
           </h1>
           <p className="text-justify  md:justify-center sm:text-xl md:text-2xl text-gray-700 font-serif">
             I&apos;m Tayseer, a passionate full-stack web developer skilled in both front-end and back-end technologies. 

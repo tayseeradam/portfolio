@@ -16,7 +16,9 @@ const Navbar = () => {
           <a href="#home" className="hover:text-white"> Home </a>
           <a href="#aboutMe" className=" hover:text-white">About Me</a>
           <a href="#skills" className="hover:text-white">Skills</a>
+          <a href="#projects" className="hover:text-white">Projects</a>
           <a href="#contactMe" className="hover:text-white">Contact Me</a>
+     
         </div>
         <div className="md:hidden flex items-center">
           <button onClick={toggleMenu} className="text-gray-700 focus:outline-none">
@@ -43,7 +45,9 @@ const Navbar = () => {
             <a href="#home" className="block hover:text-white ">Home</a>
             <a href="#aboutMe" className="block hover:text-white">About Me</a>
             <a href="#skills" className="block hover:text-white">Skills</a>
+            <a href="#projects" className="block hover:text-white">Projects</a>
             <a href="#contactMe" className="block hover:text-white">Contact Me</a>
+            
           </ul>
         </div>
       )}
