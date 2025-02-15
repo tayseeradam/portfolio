@@ -1,49 +1,4 @@
 
-// import BookmarkManagerImage from "../assets/BookmarkManager.png"; 
-
-// function Projects() {
-//   return (
-//     <main id="projects">
-//       <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-//         <div className="bg-white p-8 rounded-lg shadow-lg max-w-lg w-full">
-//           <h1 className="text-xl font-bold text-center text-gray-800 mb-4 font-serif">
-//           <p>For instance:</p>
-//            <ul>
-//            <li><a href="https://bookmark-s.vercel.app/">→ Bookmark App</a></li>
-//            <li><a href="link-to-calculator-project">→ Calculator App</a></li>
-//          </ul>
-//           </h1>
-//           <p className="text-lg text-gray-600 mb-4 font-serif ">
-//           Discover this awesome Bookmark app!
-//           </p>
-
-//           {/* Display the image here */}
-//           <div className="mb-4">
-//             <img
-//               src={BookmarkManagerImage}
-//               alt="Bookmark Manager"
-//               className="rounded-lg shadow-md w-full h-auto object-cover"
-//             />
-//           </div>
-
-//           <a
-//             href="https://bookmark-s.vercel.app/"
-//             target="_blank"
-//             rel="noopener noreferrer"
-//             className="text-white bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded-md text-sm block text-center"
-//           >
-//             Visit Bookmark App
-//           </a>
-//         </div>
-//       </div>
-//     </main>
-//   );
-// }
-
-// export default Projects;
-
-
-
 import BookmarkManagerImage from "../assets/Bookmark Manager.png/";
 
 
@@ -58,7 +13,7 @@ function Projects() {
             Featured Projects
           </h2>
           <p className="text-lg text-gray-600 mb-4 font-serif">
-            For instance
+            For instance:
           </p>
 
           <ul className="list-disc ml-8 mb-4">
